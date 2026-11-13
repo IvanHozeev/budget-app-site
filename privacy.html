@@ -23,7 +23,7 @@
 </ul>
 
 <h2>Google account access</h2>
-<p>Budget asks Google for one permission, <code>drive.file</code>: access only to the files the app created and the spreadsheets you pick in Google's file picker. It cannot see any other file in your Google Drive.</p>
+<p>Budget asks Google for one permission, <code>drive.file</code>: access only to the spreadsheets the app created itself. It cannot see any other file in your Google Drive.</p>
 <ul>
 <li>The data is used only to show your budget in the app and to keep it in step with those spreadsheets. It is not used for advertising, not sold, not shared with anyone and not used to train AI models.</li>
 <li>Sign-in tokens are kept in the iPhone Keychain, on this device only.</li>
@@ -59,7 +59,7 @@
 <ul>
 <li><strong>На iPhone</strong> хранятся записи, категории, лимиты, цели, долги, правила общих расходов и список покупок — в памяти приложения и его виджета.</li>
 <li><strong>В вашем аккаунте Google</strong>, только если вы его подключили: приложение читает и пишет таблицы месяцев напрямую с телефона.</li>
-<li>Доступ к Google — одно разрешение <code>drive.file</code>: только файлы, созданные приложением, и таблицы, которые вы сами выбрали. Остальной Google Диск приложению не виден.</li>
+<li>Доступ к Google — одно разрешение <code>drive.file</code>: только таблицы, которые приложение создало само. Остальной Google Диск приложению не виден.</li>
 <li>Данные из Google используются только для показа бюджета и синхронизации; они не продаются, не передаются третьим лицам, не используются для рекламы и обучения ИИ. Использование соответствует <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, включая требования Limited Use.</li>
 <li>Токены входа лежат в Keychain только на этом устройстве. «Выйти» удаляет их и отзывает доступ у Google; отозвать его можно и на <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>.</li>
 <li>Курсы валют загружаются из открытого проекта currency-api (cdn.jsdelivr.net, currency-api.pages.dev): в запросе только код валюты и дата.</li>
